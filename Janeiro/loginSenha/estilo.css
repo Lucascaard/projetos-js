@@ -1,0 +1,65 @@
+body{
+    background: rgb(56, 56, 199);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.425);
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+
+/* Define a largura e altura da caixa de input usuario {
+    width: 300px;
+    height: 40px;
+}
+
+/* Define a cor de fundo da caixa de input */
+#usuario {
+    background-color: lightgray;
+}
+
+/* Define a cor da fonte da caixa de input */
+#usuario {
+    color: black;
+}
+
+/* Define a borda da caixa de input */
+#usuario {
+    border: 1px solid black;
+}
+
+/* Define o tamanho da fonte */
+#usuario {
+    font-size: 16px;
+}
+
+/* Define o estilo da fonte */
+#usuario {
+    font-family: Arial, sans-serif;
+}
+
+/* Define o estilo da borda */
+#usuario {
+    border-radius: 5px;
+}
+
+/* Define o estilo do placeholder */
+#usuario::placeholder {
+    color: gray;
+}

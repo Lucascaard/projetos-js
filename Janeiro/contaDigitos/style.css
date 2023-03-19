@@ -1,0 +1,36 @@
+
+section#one{
+
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 330px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.425);
+    text-align: center;
+    background-color: gray;
+
+}
+
+#txtdigi {
+    color: rgba(25, 60, 143, 0.8);
+}
+
+.teste{
+    color: #ffffff;
+    box-shadow: 3px 3px 10px black;
+    padding: 5px;
+    margin: auto;
+    opacity: 0.9;
+;
+
+}
+
+body{
+    background-image: url("abstract.jpg");
+    background-repeat: repeat-y;
+    background-position: right top;
+    background-attachment: scroll; /*a imagem ira rolar com o restante da pagina*/
+    
+
+}

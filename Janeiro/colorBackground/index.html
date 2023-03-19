@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trocando a cor do Background</title>
+    <style>
+        #btnCor {
+            text-align: center;
+            margin: auto;
+            display: flex;
+            width: 250px;
+            height: 100px;
+            font-size: 22px;
+            font-family: 'Verdana';
+            font-weight: bold;
+            background-color: white;
+            border-color: black;
+            border-radius: 25px;
+            position: absolute; /*Posiciona o elemento de forma absoluta*/
+            top: 50%; /*Posiciona o elemento 50% do topo da tela*/
+            left: 50%; /*Posiciona o elemento 50% do lado esquerdo da tela*/
+            transform: translate(-50%, -50%); /*Centraliza o elemento*/
+}
+        h1{
+            position: absolute; /*Posiciona o elemento de forma absoluta*/
+            top: 40%; /*Posiciona o elemento 50% do topo da tela*/
+            left: 40%; /*Posiciona o elemento 50% do lado esquerdo da tela*/
+            transform: translate(-40%, -40%); /*Centraliza o elemento*/
+            text-align: center;
+        }
+    </style>
+</head>
+<body id="corpo" >
+     <h1 id="tit" ></h1>
+    <div id="cores">
+        <input type="button" value="TROCAR DE COR" id="btnCor" onclick="trocar()">
+    </div>
+    <script>
+        function trocar(){
+            let btn = document.getElementById('btnCor')
+            let bg = document.getElementById('corpo')
+            let text = document.querySelector('h1#tit')
+            let r = Math.floor(Math.random() * 256); // gera um número aleatório entre 0 e 255
+            let g = Math.floor(Math.random() * 256); // gera um número aleatório entre 0 e 255
+            let b = Math.floor(Math.random() * 256); // gera um número aleatório entre 0 e 255
+            bg.style.backgroundColor = "#"+r+g+b;
+            tit.innerHTML = "#"+r+g+b;
+        }
+    </script>
+</body>
+</html>

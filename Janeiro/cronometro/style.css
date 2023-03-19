@@ -1,0 +1,17 @@
+#container {
+    text-align: center;
+    font-size: 20px;
+}
+
+input {
+    background: #069;
+    color: white;
+    font-size: 30px;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#display{
+    text-align: center;
+}

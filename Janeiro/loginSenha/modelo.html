@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> <!-- Define o tipo de codificação de caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Define a compatibilidade com o navegador Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define o tamanho inicial da página -->
+    <title>Exercicio chatGPT</title> <!-- Título da página -->
+    <link rel="stylesheet" href="estilo.css"> <!-- Link para o arquivo de estilos -->
+</head>
+<body>
+    <header>
+        <h1 id="tit">Login</h1> <!-- Título do cabeçalho -->
+    </header>
+    <section>
+        <div>
+            <form id="entry"> <!-- Início do formulário de login -->
+                <!-- Campo de usuário -->
+                <p><label for="usuario">Email: </label>
+                <input type="text" name="user" id="usuario" placeholder="exemplo@hotmail.com" size="25px"></p>
+                <!-- Campo de senha -->
+                <p> <label for="senha">Senha: </label>
+                <input type="password" name="senha" id="password" placeholder="Digite sua senha" size="25px"></p>
+                <!-- Botão de submit -->
+                <p><input type="submit" value="Entrar"> </p>
+            </form> <!-- Fim do formulário de login -->
+        </div>
+        <div id="res"></div> <!-- Div onde será exibida a mensagem de erro ou sucesso -->
+    </section>
+    <script src="script.js"></script> <!-- Link para o arquivo de script -->
+</body>
+</html>
