@@ -13,7 +13,7 @@ function calc()
     if(!_nome || !_altura || !_peso)
     {
         res.innerHTML = 'Preencha todos os campos vazios!';
-    } else
+    } else 
     {
         if(imc < 18.5)
         {
