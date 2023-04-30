@@ -1,31 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Contador de Digitos</title>
+    <title>Contador de Dígitos</title>
 </head>
 <body>
     <section id="one" >
-        <h1>Contador de Digitos</h1>
-        <label for="dados">Insira os digitos: </label>
-        <input type="text" id="txtdigi" placeholder="espaços tambem contam :)">
+        <h1>Contador de Dígitos</h1>
+        <label for="dados">Insira os dígitos: </label>
+        <input type="text" id="txtdigi" placeholder="espaços também contam :)">
         <input type="button" id="btnContar" value="Contar" onclick="contar()">
-        <div id="res" >
-            ...
-        </div>
+        <div id="res">...</div>
     </section><br>
 
-    <div class="teste">
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste dolor optio, corrupti, inventore
-                praesentium excepturi asperiores quis commodi, saepe adipisci cupiditate explicabo aperiam fuga.
-                Dolore soluta delectus mollitia laudantium. Tenetur.    
-            </p>
-    </div>
-    
     <script>
         function contar(){
             let digi = document.getElementById('txtdigi');

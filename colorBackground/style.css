@@ -1,0 +1,29 @@
+#btnCor {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    width: 212px;
+    height: 80px;
+    font-size: 22px;
+    font-family: 'Verdana';
+    font-weight: bold;
+    background-color: white;
+    border-color: black;
+    border-radius: 25px;
+    position: absolute; /*Posiciona o elemento de forma absoluta*/
+    top: 50%; /*Posiciona o elemento 50% do topo da tela*/
+    left: 50%; /*Posiciona o elemento 50% do lado esquerdo da tela*/
+    transform: translate(-50%, -50%); /*Centraliza o elemento*/
+    cursor: pointer;
+}
+
+#btnCor:hover{
+    background-color: lightgray;
+}
+h1{
+    position: absolute; /*Posiciona o elemento de forma absoluta*/
+    top: 39%; /*Posiciona o elemento 50% do topo da tela*/
+    left: 48%; /*Posiciona o elemento 50% do lado esquerdo da tela*/
+    transform: translate(-40%, -40%); /*Centraliza o elemento*/
+    text-align: center;
+}

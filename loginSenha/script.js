@@ -26,6 +26,4 @@ function log(){
     usuario.value = ''; //limpa o campo de login
     usuario.focus(); //coloca o foco no campo de login
 }
-var teste = 'teste'
-console.log(typeof(teste)) // Exemplo de como usar o typeof(no caso aqui retornou string)
-// é fn+F8 pra usar o node 
+
